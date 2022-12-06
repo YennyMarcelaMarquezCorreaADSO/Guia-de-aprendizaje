@@ -15,14 +15,19 @@ table {
     background-color: rgb(170, 187, 241);
     box-shadow:  3px 5px 3px  rgb(77, 74, 74) ;
 }
-
-td, th {
+th{
     border: 1px solid ;
-    text-align: center;
     padding: 5px 15px ;
-
-
+    color: rgb(21, 39, 97);
+    background-color: rgb(170, 187, 241);
 }
+
+td {
+    border: 1px solid ;
+    padding: 5px 15px ;
+    background-color: rgb(198, 208, 240);
+}
+
 
 
 p {
