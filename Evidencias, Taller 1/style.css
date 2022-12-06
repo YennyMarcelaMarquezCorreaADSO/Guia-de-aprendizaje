@@ -1,20 +1,22 @@
 h1 {
     font-size: 20px;
-    margin: 0%
+}
+
+h3{
+    color: rgb(152, 48, 179);
 }
 
 body {
-    margin: 0%;
+    margin: 11px;
     height: 619px;
-    text-align: center;
 }
 
 table {
     font-family: georgia;
     display: inline-block;
     border-collapse: collapse;
-    background-color: rgb(216, 164, 230);
-    box-shadow:  10px 10px 10px  rgb(77, 74, 74) ;
+    background-color: rgb(255, 202, 251);
+    box-shadow:  3px 5px 3px  rgb(77, 74, 74) ;
 }
 
 td, th {

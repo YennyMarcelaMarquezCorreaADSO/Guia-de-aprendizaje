@@ -10,70 +10,47 @@
 </head>
 <body>
 
-    <p>Construir la tabla de verdad para las siguientes expresiones </p>
+    <p> Se desea elaborar un algoritmo que permita identificar la cantidad de dólares equivalentes a una cantidad de pesos colombianos. </p>
 
-    <h3> ( P ∧ Q) </h3>
+    <div id="d">
+        <h3> Dolares a pesos</h3>
+    <form id="input">
+        <input type="number" name="dolares" placeholder="Ingrese los dolares" >
+        <input type="submit" name="enviar" placeholder="Enviar">
+    </form>
 
-    <table>
-        <tr>
-            <th> P </th>
-            <th> ∧ </th>
-            <th> Q </th>
-        </tr>
-        <tr>
-            <td>V</td>
-            <td>V</td>
-            <td>V</td>
-        </tr>
-        <tr>
-            <td>V</td>
-            <td>F</td>
-            <td>F</td>
-        </tr>
-        <tr>
-            <td>F</td>
-            <td>F</td>
-            <td>V</td>
-        </tr>
-        <tr>
-            <td>F</td>
-            <td>F</td>
-            <td>V</td>
-        </tr>
-    </table>
+    <br>
+    <br>
 
+<table>
+    <thead>
+        <tr>
+            <th>Dolares</th>
+            <th>Pesos</th>
+        </tr> 
+    </thead> 
+    <tbody></tbody>
+</table>  
 
-    <h3> ( P ∨ Q)</h3>
-    <table>
-        <tr>
-            <th>P</th>
-            <th>∨</th>
-            <th>Q</th>
-        </tr>
-        <tr>
-            <td>V</td>
-            <td>V</td>
-            <td>V</td>
-        </tr>
-        <tr>
-            <td>V</td>
-            <td>V</td>
-            <td>F</td>
-        </tr>
-        <tr>
-            <td>F</td>
-            <td>V</td>
-            <td>V</td>
-        </tr>
-        <tr>
-            <td>F</td>
-            <td>F</td>
-            <td>F</td>
-        </tr>
-    </table>
+<div id="d">
+    <h3> Pesos a dolares</h3>
+<form id="input2">
+    <input type="number" name="pesos" placeholder="Ingrese los pesos" >
+    <input type="submit" name="enviar" placeholder="Enviar">
+</form>
 
+<br>
+<br>
 
+<table>
+<thead>
+    <tr>
+        <th>Pesos</th>
+        <th>Dolares</th>
+    </tr> 
+</thead> 
+<tbody id="tabla2"></tbody>
+</table> 
 
-  
 </body>
 </html>
